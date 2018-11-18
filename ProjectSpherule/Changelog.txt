@@ -1,0 +1,47 @@
+Project Spherule
+
+Changelog: June 2015 - alpha 0.1
+-Created project
+-Created level template
+-Player can fire spheres into the environment and destory other spheres
+-Sphere typing has been implemented
+-Countdown timer implemented
+-Player can view next sphere to appear in launcher and switch it with active sphere
+-Player can view stats on spheres in play
+-Point system implemented
+-Level generation implemented
+
+Changelog: July/August 2015 - alpha 0.1
+-Added three new spheres: light, dark, plasma
+-Normal spheres now get painted if they are hit by another color
+-Updated fonts
+-Point multiplier if multiple spheres are struck
+-Level generation modified to have alternating row placement
+-Added counter to show how many remaining spheres are in the deck
+-Launcher now follows the player's mouse position as opposed to scrolling as the player moves left or right
+-Launcher now autofires the loaded sphere if the player takes too long
+-UI updated to include countdown timer for autofire
+
+Changelog: September 2015
+-The sphere that the player saves is now moved to a different storage location as opposed to just swapping with the next sphere
+-The player can hold onto the stored sphere until they would like to use it again
+-Added a Game Over caption upon the player running out of spheres
+-Basic spheres can now be fused to created fusion spheres
+-Added 3 new types of fusion spheres: Dark Fire, Light Fire, and Plasma Fire, each with their own unique characteristics
+-Added 6 new types of fusion spheres: Dark Water, LightW, PlasmaW, DarkIce, LightI, and PlasmaI
+-Added a level selection scene
+-Background images can be specified for the game scene
+-Selecting a level now previews an image for the background
+-Spheres that are weak against the currently loaded sphere will now glow
+-Game Over options are now displayed on Game Over
+-Optimized size of screen to realistically fit a Nintendo 3DS
+-Created Deck Editing screen
+-Moved properties pertaining to sphere actions to another class
+-Added random deck generation
+-Added a title scene with selectable and highlighting buttons
+-Added countdown timer for starting a level
+
+Changelog: October 2015
+-Added basic overworld map for story mode with movement control
+-Added new sphere: Heart
+-Added sound effects to menu items

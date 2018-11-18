@@ -1,0 +1,1 @@
+To make a level, create a row of 13 characters. The next row must contain 12. Alternate this pattern until complete.
